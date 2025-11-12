@@ -1,3 +1,3 @@
-# Clone solar-challenge-week0 from github
-# Create virtual enviroment
-# RUN pip install -r requirements.txt
+#KAIM Week 0 Solar Data Discovery Challenge 
+
+This repository documents the Week 0 Solar Data Discovery Challenge for the 10 Academy AI Mastery Program, focusing on analyzing solar radiation data from Benin, Sierra Leone, and Togo. The work includes setting up a reproducible Python environment using Git and GitHub with continuous integration (CI) via GitHub Actions, documenting all steps in a clear project structure. The approach to Task 2 involves systematic data profiling, cleaning, and exploratory data analysis (EDA) to uncover irradiance patterns, seasonal trends, and environmental relationships. The repository demonstrates best practices in version control, documentation, and collaboration, ensuring transparency, professionalism, and readiness for subsequent cross-country comparison and dashboard development tasks
