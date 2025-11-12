@@ -74,7 +74,33 @@ Z-score cleaning successfully removed statistical outliers.
 ANOVA test confirmed significant differences in GHI across countries (p < 0.05).
 
 Temperature variables (TModA, TModB, Tamb) followed irradiance closely, validating physical relationships.
+# Streamlit Discovery Dashboard 
 
+This Streamlit dashboard provides an interactive visualization of solar irradiance and temperature data for **Benin**, **Sierra Leone**, and **Togo**.  
+It was developed as part of the **10 Academy Week 0 Bonus Objective**.
+
+## Features
+- Sidebar selection for country and variable control  
+- Time-series plots for irradiance and temperature  
+- Correlation heatmaps to show relationships between variables  
+- Cross-country comparison boxplots for GHI  
+- Automatic data loading (local or via GitHub)  
+- Fully deployable on Streamlit Community Cloud  
+
+## 📂 Structure
+app/
+├── init.py
+├── main.py # Main Streamlit app
+└── utils.py # Helper functions for loading and plotting
+
+bash
+Copy code
+
+## ▶️ Run Locally
+```bash
+cd app
+streamlit run main.py
+Public link:https://solar-challenge-week0-vhmzkz2cdm2wbplgujxtxw.streamlit.app/
 
 👩‍💻 Author & Acknowledgments
 
